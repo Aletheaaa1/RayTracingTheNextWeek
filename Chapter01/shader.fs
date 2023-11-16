@@ -211,7 +211,6 @@ World NewWorld()
 	world.movingObjects[1] = NewMovingSphere(vec3(-3.0, 0.0, -0.2), vec3(-3.0, 0.5, -0.0), 0.25, time0, time1, MAT_DIELECTRIC, 3);
 	return world;
 }
-
 World world;
 
 struct HitRecord
